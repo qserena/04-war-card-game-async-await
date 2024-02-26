@@ -1,0 +1,63 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url('./img/table.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Play', sans-serif;
+	box-sizing: border-box;
+	color: snow;
+	/* margin: 0 auto; */
+}
+
+.container {
+	text-align: center;
+	/* height: 100%; */
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.remaining-cards {
+	margin-right: 30px;
+}
+
+button {
+	font-weight: 700;
+	padding: 10px 20px;
+	margin: 30px;
+	width: 200px;
+	border-radius: 5px;
+	background-color: goldenrod;
+	cursor: pointer;
+	border: solid black 0.5px;
+}
+
+.card {
+	width: 100%;
+}
+
+.card-slot {
+	border: none;
+	border-radius: 8px;
+	background-color: darkgreen;
+	width: 150px;
+	height: 210px;
+	margin: 20px;
+}
+
+.draw-btn {
+	margin-top: auto;
+}
+
+.draw-btn:disabled {
+	cursor: default;
+}
