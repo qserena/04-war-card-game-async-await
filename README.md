@@ -5,7 +5,7 @@ This card game calls the [Deck of Cards API](https://www.deckofcardsapi.com/) (t
 
 When all cards are drawn the winner of the game is announced!
 
-This version uses "async await" instead of "then".
+This version uses "async await" instead of "then" in the asynchronous fetch call.
 <br/>
 <br/>
 <img src="war-game.png" alt="Screenshot." width="400px"/>
