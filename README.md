@@ -19,4 +19,4 @@ This version uses "async await" instead of "then" in the asynchronous fetch call
 The app is deployed here:
 [https://toms-war-game.netlify.app](https://toms-war-game.netlify.app)
 
-Please feel free to visit and try the game!
+Please feel free to visit and try out the game!
